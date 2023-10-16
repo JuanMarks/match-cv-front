@@ -1,0 +1,175 @@
+.App {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(black, orange);
+}
+
+.fundo {
+  background-image: linear-gradient(to bottom, #000000ed, black 50%, rgb(55 46 2 / 97%) 98%);
+  min-height: 100vh;
+}
+
+.App-logo {
+  border-radius: 15px;
+  padding: 10px 0;
+  width: 22%;
+  height: auto;
+  pointer-events: none;
+}
+
+.main-title {
+  color: white;
+  font-weight: bold;
+}
+
+.main-subtitle {
+  color: white;
+  font-weight: 100;
+  padding: 10px 25%;
+}
+
+.card-vaga {
+  padding: 0 10px;
+}
+
+.card-vaga .card-title {
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.card-vaga .card-body {
+  color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.card-vaga .card-body p {
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 0.5em;
+}
+
+.card-vaga .card-body .first-info {
+  margin-top: 1.8em;
+}
+
+.container-titulo {
+  width: 30%;
+  margin-top: 2%;
+  text-align: justify;
+  margin-left: 180px;
+}
+
+.container-vagas {
+  margin-top: 70px;
+  margin-left: 180px;
+  width: 70%;
+}
+
+.vagas {
+  background-color: gray;
+  border-radius: 15px;
+  height: 100vh;
+  width: 70%;
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.paragrafo-vaga {
+  margin-top: 20px;
+}
+
+.candidatos {
+  background-color: gray;
+  border-radius: 15px;
+  display: inline-block;
+  height: 362px;
+  width: 326px;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, orange, rgba(255, 255, 0, 0.753));
+  width: 100%;
+  height: 1%;
+  position: absolute;
+}
+
+.gradient-btn {
+  background-image: linear-gradient(to right, #FF8C00, #ffe600dc);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 0.4em;
+}
+
+.laranja {
+  color: #FF8C00;
+}
+
+.vaga-selecionada {
+  color: white;
+  height: 100vh
+}
+
+.vaga-selecionada .gradient-btn {
+  margin: 0;
+  border: none;
+  position: absolute;
+  width: 100px;
+}
+
+.vaga-title {
+  text-align: center;
+}
+
+.vaga-title h2 {
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+.vaga-selecionada h3 {
+  font-weight: bold;
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 6vh;
+}
+
+.top10-subtitle {
+  font-weight: 100;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.gradient-vaga {
+  background-image: linear-gradient(to right, orange, rgba(255, 255, 0, 0.753));
+  width: 100%;
+  height: 1px;
+}
+
+.card-cv .card-body {
+  color: white;
+  padding: 30px;
+}
+
+.card-cv .card-title {
+  font-size: 1.7em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.card-cv p {
+  line-height: 1em;
+  font-weight: 100;
+}
+
+.card-cv p.card-text {
+  line-height: 1.4em;
+}
